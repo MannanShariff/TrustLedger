@@ -64,7 +64,7 @@ app.use(morgan('dev'));
 app.use('/uploads', express.static(path.join(__dirname, 'src/uploads')));
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://mannanshariff:mannan123@trustledger.lalfgxo.mongodb.net/')
+mongoose.connect(process.env.MONGODB_URI)
   .then(() => console.log('MongoDB connected successfully'))
   .catch(err => console.error('MongoDB connection error:', err));
 

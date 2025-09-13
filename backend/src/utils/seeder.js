@@ -15,7 +15,7 @@ const AuditLog = require('../models/AuditLog');
 dotenv.config();
 
 // Connect to DB
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://mannanshariff:mannan123@trustledger.lalfgxo.mongodb.net/');
+mongoose.connect(process.env.MONGODB_URI);
 
 // Sample data
 const users = [
