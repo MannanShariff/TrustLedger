@@ -98,7 +98,7 @@ This is the backend API for the TrustLedger application, a financial transparenc
    ```
    NODE_ENV=development
    PORT=5000
-   MONGODB_URI=mongodb+srv://<your_db_username>:<your_password>@trustledger.lalfgxo.mongodb.net/
+   MONGODB_URI=mongodb+srv://mannanshariff:mannan123@trustledger.lalfgxo.mongodb.net/
    JWT_SECRET=your_jwt_secret
    JWT_EXPIRE=30d
    ```
